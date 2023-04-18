@@ -22,7 +22,7 @@ float ivaCalc(float subtotal)
     return 0.15 * subtotal;
 }
 
-int main()
+void calcPrecio()
 {
     int cantProduct;
     float price, subtotal, discount, iva, total;
@@ -41,6 +41,4 @@ int main()
 
     // Mostrar el resultado en terminal
     cout << "El monto a pagar es de: $ " << total << endl;
-
-    return 0;
 }
