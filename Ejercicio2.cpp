@@ -78,9 +78,9 @@ void ejercicio2(){
             break;
         
         case 2:
-            cout<<"Por politicas de la empresa tiene un 5 porciento de descuento al pagar con tarjeta de credito."<<endl;
+            cout<<"Por politicas de la empresa tiene un cargo del 5 porciento al pagar con tarjeta de credito."<<endl;
             cout<<"A como le mencione el total es de "<<acumPrecio<<endl;
-            cout<<"Con el descuento le quedaria "<<(acumPrecio = (acumPrecio - (acumPrecio * 0.05)))<<endl;
+            cout<<"Con el cargo le quedaria "<<(acumPrecio = (acumPrecio + (acumPrecio * 0.05)))<<endl;
             cout<<"Le agradecemos por su llegada.";
             break;
         
