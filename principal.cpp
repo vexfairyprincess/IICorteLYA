@@ -1,6 +1,7 @@
 #include <iostream>
-#include "#1.cpp"
-#include "#2.cpp"
+#include "Ejercicio1.cpp"
+#include "Ejercicio2.cpp"
+#include "Ejercicio3.cpp"
 using namespace std;
 
 int main(){
@@ -25,6 +26,7 @@ int main(){
         break;
     
     case 3:
+        Bono();
         break;
     
     default:
